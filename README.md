@@ -1,7 +1,7 @@
 npm run build -- --profile                                                                                                                                              													
 pm2 start npm -- start                                                                          
 
-npm install @material-ui/core@4.12.1                                                                                                                                      
+npm install @material-ui/core@4.12.1                                                                                                                                      npm install alpha -g
 You should update your package.json with following:
 
 "@material-ui/lab": "4.0.0-alpha.57",
