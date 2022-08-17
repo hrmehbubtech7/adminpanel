@@ -322,7 +322,7 @@ export default function Envelops(props) {
                 "Actions"
               ]}
               tableData={list.map((ele, key) => [
-                "https://crownmalls.in/envelope/" + ele._id,
+                "https://fancyclubs.net/envelope/" + ele._id,
                 ele.count,
                 ele.amount,
                 ele.awarding.length,
