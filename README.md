@@ -1,10 +1,25 @@
-npm run build -- --profile                                                                                                                                              													
+npm run build -- --profile                                                                                                                                              								
+
+
+
 pm2 start npm -- start                                                                          
 
-npm install @material-ui/core@4.12.1                                                                                                                                     npm install alpha -g
 
 
 
+
+npm install @material-ui/core@4.12.1                                                                                                                                   
+
+
+
+
+npm install alpha -g
+
+
+
+
+
+sudo iptables -t nat -I PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 3000
 
 
 
