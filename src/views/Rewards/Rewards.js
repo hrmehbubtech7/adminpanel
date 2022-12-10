@@ -246,7 +246,7 @@ export default function Rewards(props) {
                 "Actions"
               ]}
               tableData={list.map(ele => [
-                `https://axisclubs.com/api/rewards/${ele._id}`,
+                `https://filippamall.com/api/rewards/${ele._id}`,
                 ele.money,
                 ele.userphone,
                 ele.createdBy?.phone,
